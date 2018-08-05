@@ -1,0 +1,21 @@
+{
+    "python.pythonPath": "/home/max/.virtualenvs/celerium-CZt4zDCz/bin/python",
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "80",
+    ],
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [],
+    "[python]": {
+        "editor.rulers": [
+            80
+        ]
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/__pycache__": true,
+        "**/celerybeat-schedule": true,
+    }
+}
